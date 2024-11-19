@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'GTCUI/**/*.{swift}'
-  s.resource_bundles = {
-    'GTCUI' => ['GTCUI/Resources/Assets.xcassets', 'GTCUI/External Resources/Fonts/*.{ttf}'] }
+  s.resource_bundles = {'GTCUI' => ['GTCUI/Resources/Assets.xcassets', 'GTCUI/External Resources/Fonts/*.{ttf}']}
 
   s.frameworks = 'UIKit', 'CoreText'
   s.module_name = 'GTCUI'
